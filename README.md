@@ -4,10 +4,10 @@ This project implements a program that processes an annotated metagraph and comp
 
 ## Features
 - Input Handling: Reads the number of vertices and edges, their connections, and the rules for attribute computation from a structured text file.
-- Attribute Computation: Supports various rules for attribute calculations:
-- Direct assignment of attribute values.
-- Reference copying from other vertices or edges.
-- Functional calculations using minimum or multiplication of attributes from specified elements.
+- Supports various rules for attribute calculations:
+  - Direct assignment of attribute values.
+  - Reference copying from other vertices or edges.
+  - Functional calculations using minimum or multiplication of attributes from specified elements.
 - Output Generation: Writes the computed attributes of vertices and edges to an output file in a readable format.
 ## Requirements
 - Python 3.11
